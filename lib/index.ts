@@ -1,7 +1,7 @@
 import {readFileSync} from 'fs'
 import * as path from 'path'
 
-import {JSHandle, Page} from 'playwright'
+import {JSHandle, Page} from "@playwright/test"
 import waitForExpect from 'wait-for-expect'
 
 import {queryNames} from './common'

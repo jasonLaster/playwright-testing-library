@@ -5,7 +5,7 @@ import {
   SelectorMatcherOptions as TestingLibrarySelectorMatcherOptions,
   waitForOptions,
 } from '@testing-library/dom'
-import {ElementHandle as PlaywrightElementHandle} from 'playwright'
+import {ElementHandle as PlaywrightElementHandle} from "@playwright/test"
 
 export type ElementHandle = PlaywrightElementHandle<SVGElement | HTMLElement>
 

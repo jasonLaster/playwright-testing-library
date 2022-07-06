@@ -1,5 +1,5 @@
 {
-  "name": "playwright-testing-library",
+  "name": "@playwright-testing-library/test",
   "version": "0.0.0-semantically-released",
   "description": "playwright + dom-testing-library",
   "main": "./dist/index.js",
@@ -48,6 +48,7 @@
     }
   },
   "dependencies": {
+    "@replayio/playwright": "^0.2.13",
     "@testing-library/dom": "^7.31.2",
     "wait-for-expect": "^3.0.2"
   },
